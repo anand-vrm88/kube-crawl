@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.anverm.poc.MicroserviceApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-04T16:16:11" hostname="anandve3MD6M.vmware.com" time="0.722">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.anverm.poc.MicroserviceApplicationTests" time="0.722"/>
+  <system-out><![CDATA[21:46:10.444 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.anverm.poc.MicroserviceApplicationTests]: MicroserviceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:46:10.528 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.anverm.poc.MicroserviceApplication for test class com.anverm.poc.MicroserviceApplicationTests
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.0)
+
+2024-06-04T21:46:10.812+05:30  INFO 50010 --- [microservice] [    Test worker] c.a.poc.MicroserviceApplicationTests     : Starting MicroserviceApplicationTests using Java 17.0.7 with PID 50010 (started by anandve in /Users/anandve/prep/kube-crawl/app/microcservice)
+2024-06-04T21:46:10.813+05:30  INFO 50010 --- [microservice] [    Test worker] c.a.poc.MicroserviceApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2024-06-04T21:46:11.219+05:30  INFO 50010 --- [microservice] [    Test worker] c.a.poc.MicroserviceApplicationTests     : Started MicroserviceApplicationTests in 0.595 seconds (process running for 1.468)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
