@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: server
+  labels:
+    app: catalog
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: catalog
+  template:
+    metadata:
+      labels:
+        app: catalog
+    spec:
+      containers:
+        - name: microservice
+          image: anandvrm88/microservice
+          envFrom:
+            - configMapRef:
+                name: user-data
+          ports:
+            - containerPort: 8080
